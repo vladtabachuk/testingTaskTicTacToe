@@ -1,0 +1,38 @@
+
+
+.item {
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+}
+.gameField {
+    padding: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+ 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    justify-content: center;
+
+    
+}
+
+.fieldBlock {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    box-sizing: border-box;
+
+}
+
+.score {
+    padding: 10px;
+    max-width: 300px;
+    min-width: 300px;
+
+}
